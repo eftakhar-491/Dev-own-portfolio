@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans";
+}
+/* header style */
+header {
+  background-color: rgb(255, 248, 243);
+
+  background-image: url(images/developer.png), url(images/header_bg.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, 800px;
+
+  background-position-x: 40px, right;
+  background-position-y: 0px, bottom;
+
+  height: 100vh;
+}
+nav {
+  width: 75vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+}
+nav > h1 {
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+nav > h1 span {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #474747;
+}
+.btn {
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn-sec {
+  border: 2px solid rgb(253, 110, 10);
+  background-color: transparent;
+  color: #fd6e0a;
+  font-size: 14px;
+}
+.header-details {
+  width: 75vw;
+  height: 635px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.details-button h3 {
+  color: rgb(71, 71, 71);
+  font-size: 45px;
+  font-weight: 600;
+}
+.details-button h1 {
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+  font-weight: 700;
+
+  margin-bottom: 20px;
+}
+.details-button p {
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  font-weight: 400;
+}
+.dc-button {
+  margin-top: 20px;
+}
+.dc-button a {
+  margin-right: 20px;
+}
+.profile-img {
+  height: 100%;
+}
+.profile-img img {
+  height: 100%;
+}
