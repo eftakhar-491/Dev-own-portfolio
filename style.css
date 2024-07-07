@@ -149,3 +149,277 @@ nav ul li a {
   color: #474747;
   font-weight: 700;
 }
+.what-i-do {
+  width: 75vw;
+  margin-inline: auto;
+}
+.what-i-do h1 {
+  text-align: center;
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+}
+.what-i-do > p {
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  padding: 0 225px;
+}
+.all-cards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+.card > h2 {
+  color: rgb(24, 24, 24);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.card > p {
+  color: rgb(117, 117, 117);
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+
+/* summary of resume  */
+.resume-section {
+  width: 75vw;
+  margin-inline: auto;
+  margin-top: 90px;
+}
+.resume-section > h1 {
+  color: rgb(24, 24, 24);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.resume-details {
+  display: flex;
+  margin-top: 30px;
+}
+.resume-card > h1 {
+  color: rgb(71, 71, 71);
+  font-size: 24px;
+  font-weight: 700;
+}
+.resume-card > h2 {
+  color: rgb(71, 71, 71);
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.resume-card > h3 {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 600;
+}
+.resume-card > p {
+  color: rgb(117, 117, 117);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 20px;
+  width: 90%;
+}
+/* My education */
+.education {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
+}
+.education > h1 {
+  color: rgb(71, 71, 71);
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.education-qualification {
+  display: flex;
+  gap: 20px;
+  /* background-color: aqua; */
+}
+.qualification {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.qualification label {
+  margin-bottom: 10px;
+  margin-top: 8px;
+  display: flex;
+  width: 80%;
+}
+
+.qualification label span {
+  display: block;
+  margin-left: auto;
+}
+.qualification .progress {
+  width: 80%;
+  height: 8px;
+  border: 1px solid #474747;
+  border-radius: 100px;
+}
+.qualification .progress .progress-value1 {
+  background-color: #fd6e0a;
+  width: 65%;
+  height: 100%;
+  border-radius: 100px;
+}
+.qualification .progress .progress-value2 {
+  background-color: #fd6e0a;
+  width: 95%;
+  height: 100%;
+  border-radius: 100px;
+}
+.qualification .progress .progress-value3 {
+  background-color: #fd6e0a;
+  width: 80%;
+  height: 100%;
+  border-radius: 100px;
+}
+.qualification .progress .progress-value4 {
+  background-color: #fd6e0a;
+  width: 70%;
+  height: 100%;
+  border-radius: 100px;
+}
+.qualification .progress .progress-value5 {
+  background-color: #fd6e0a;
+  width: 60%;
+  height: 100%;
+  border-radius: 100px;
+}
+.qualification .progress .progress-value6 {
+  background-color: #fd6e0a;
+  width: 99%;
+  height: 100%;
+  border-radius: 100px;
+}
+.btn144 {
+  margin: 20px auto 0 auto;
+}
+/* My Amazing Works */
+.my-works {
+  width: 75vw;
+  margin: 90px auto;
+}
+.my-works h1 {
+  text-align: center;
+  color: rgb(24, 24, 24);
+  font-size: 30px;
+  font-weight: 700;
+}
+.all-project {
+  width: 700px;
+  height: 600px;
+  margin-top: 20px;
+  margin-inline: auto;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.sm-card {
+  width: 225px;
+  height: 250px;
+  background-color: antiquewhite;
+}
+.lg-card {
+  width: 225px;
+  height: 340px;
+  background-color: antiquewhite;
+  align-self: flex-start;
+}
+.fst {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sec {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.trd {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* footer part */
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 100px 150px;
+  background-color: rgb(255, 248, 243);
+  margin-top: 90px;
+}
+.footer-detail {
+  width: 50%;
+}
+.footer-detail h1 {
+  color: rgb(24, 24, 24);
+  font-size: 30px;
+  font-weight: 700;
+}
+.footer-detail p {
+  color: rgb(71, 71, 71);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
+.footer-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-form > h1 {
+  color: rgb(24, 24, 24);
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.footer-form > form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 16px;
+}
+.footer-form > form input {
+  padding: 10px 8px;
+  width: 380px;
+  border: none;
+}
+.footer-form > form textarea {
+  padding: 10px 8px;
+  width: 380px;
+  border: none;
+}
